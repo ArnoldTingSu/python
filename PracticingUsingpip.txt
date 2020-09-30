@@ -1,0 +1,21 @@
+pip install Django==1.11.9 - saw the command prompt acutally install jango into the my_enviorments folder
+
+pip list - now lists 3 packages
+
+deactivate (This will deactivate your virtual environment) - take me back into regular command prompt
+
+pip3 list (How is the result different from when you ran pip list with the virtualenv activated? Hint, you should not have as many things listed when the virtualenv is deactivated. If your results are the same, go back and figure out what went wrong.) - doesnt show jdango, because it was installed directly into the library for the virtual enviornment
+
+source myEnvironments/py3Env/bin/activate (Adjust the path as needed to re-activate the virtualenv; for windows call myEnvironments/py3Env/Scripts/activate) - goes back into the virtual enviorment
+
+pip install Django==1.11.9 (We know you already ran this one. What information do you see returned in terminal after this command?) infomration returned was an error message saying it was alrady installed
+
+pip freeze (What's the difference between freeze and list?) - pip freeze will list all INSTALLED packages through the command prompt
+
+First cd into your Desktop directory (cd ~/Desktop), then run this command: pip freeze > requirements.txt. What do you see when you ls? What's inside this file? creates a txt file, printing a freeze list of installed packages
+
+pip uninstall Django unstall Django, promps to remove all files (y/n) has returning line for sucessful removal of Django
+
+pip show Django - returns package not found, if Django is installed, will show version number
+
+pip search Flask This one might take a moment to execute - shows list of all flasks packages
