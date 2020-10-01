@@ -30,10 +30,10 @@ for x in range(0, 101, 1):
 
 #4. Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
 
-#sum = 0
-#for x in range(1,500000, 2):
-#    sum+=x
-#    print("current number: ",sum)
+sum = 0
+for x in range(1,500000, 2):
+    sum+=x
+    print("current number: ",sum)
 
 
 #5. Countdown by Fours - Print positive numbers starting at 2018, counting down by fours.
