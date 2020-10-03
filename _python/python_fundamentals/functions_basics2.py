@@ -50,9 +50,8 @@ def greaterThansecond(num_list):
 
 def thisAndthat(length,value):
     thatList = []
-    x = value
     for length in range(0, length, 1):
-        thatList.append(x)
+        thatList.append(value)
     print(thatList)
 
 ##Example: length_and_value(4,7) should return [7,7,7,7]
